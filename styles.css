@@ -1,0 +1,90 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    background: lightgrey;
+}
+
+img {
+    width: 100px;
+}
+
+
+#hero {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    height: 220px;
+    color: lightblue;
+    text-shadow: 3px 1px 1px black;
+    display: flex;
+    flex-direction: column;
+}
+
+#diversity {
+    margin: 0 10%;
+    font-size: 20px;
+}
+
+.activity{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 30px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3px;
+    flex-wrap: nowrap;
+    size: 30%;
+    font-size: 12px;
+}
+
+.image {
+    size: 100px;
+    border: solid grey 2px;
+    border-radius: 100px;
+    margin: 10%;
+}
+
+.image:hover {
+    width: 120px;
+}
+
+.aman, .sakhi, .paghman {
+    padding: 20px;
+}
+
+.guide {
+    display: flex;
+    background: gray;
+    size: 50%;
+    margin: 5px 20% 50px 20%;
+    border-bottom: solid lightcoral 7px;
+    
+}
+
+#portrait {
+    width: auto;
+    height: 200px; 
+    margin-top: 30px;
+    margin-left: 10px;
+    border: solid whitesmoke 1px;
+    border-radius: 5px;
+}
+
+#detail {
+    margin: 15px;
+}
+
+p:hover {
+    font-weight: bold;
+    font-size: 15px;
+}
